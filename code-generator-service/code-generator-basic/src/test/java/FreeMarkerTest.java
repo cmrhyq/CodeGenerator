@@ -32,6 +32,8 @@ public class FreeMarkerTest {
 
         configuration.setDirectoryForTemplateLoading(new File("src/main/resources/templates"));
 
+        configuration.setNumberFormat("0.####");
+
         configuration.setDefaultEncoding("utf-8");
 
         Template template = configuration.getTemplate("web.html.ftl");
