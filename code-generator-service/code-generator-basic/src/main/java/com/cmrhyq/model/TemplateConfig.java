@@ -17,9 +17,9 @@ import lombok.Data;
 @Data
 public class TemplateConfig {
 
-    private boolean loop;
+    private boolean loop = true;
 
-    private String author;
+    private String author = "Alan Huang";
 
-    private String outputText;
+    private String outputText = "Sum: ";
 }
